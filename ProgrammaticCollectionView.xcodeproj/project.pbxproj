@@ -16,6 +16,8 @@
 		4AD1A13F2A7BB19200CB8DB0 /* ProgrammaticCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A13E2A7BB19200CB8DB0 /* ProgrammaticCollectionViewTests.swift */; };
 		4AD1A1492A7BB19200CB8DB0 /* ProgrammaticCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A1482A7BB19200CB8DB0 /* ProgrammaticCollectionViewUITests.swift */; };
 		4AD1A14B2A7BB19200CB8DB0 /* ProgrammaticCollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A14A2A7BB19200CB8DB0 /* ProgrammaticCollectionViewUITestsLaunchTests.swift */; };
+		4AD1A1582A7BB90400CB8DB0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A1572A7BB90400CB8DB0 /* CollectionViewCell.swift */; };
+		4AD1A15A2A7BBA5A00CB8DB0 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1A1592A7BBA5A00CB8DB0 /* CollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4AD1A1442A7BB19200CB8DB0 /* ProgrammaticCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD1A1482A7BB19200CB8DB0 /* ProgrammaticCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticCollectionViewUITests.swift; sourceTree = "<group>"; };
 		4AD1A14A2A7BB19200CB8DB0 /* ProgrammaticCollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticCollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AD1A1572A7BB90400CB8DB0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4AD1A1592A7BBA5A00CB8DB0 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4AD1A1292A7BB18F00CB8DB0 /* SceneDelegate.swift */,
 				4AD1A12B2A7BB18F00CB8DB0 /* ViewController.swift */,
 				4AD1A12D2A7BB18F00CB8DB0 /* Main.storyboard */,
+				4AD1A1572A7BB90400CB8DB0 /* CollectionViewCell.swift */,
+				4AD1A1592A7BBA5A00CB8DB0 /* CollectionReusableView.swift */,
 				4AD1A1302A7BB19100CB8DB0 /* Assets.xcassets */,
 				4AD1A1322A7BB19100CB8DB0 /* LaunchScreen.storyboard */,
 				4AD1A1352A7BB19100CB8DB0 /* Info.plist */,
@@ -260,6 +266,8 @@
 			files = (
 				4AD1A12C2A7BB18F00CB8DB0 /* ViewController.swift in Sources */,
 				4AD1A1282A7BB18F00CB8DB0 /* AppDelegate.swift in Sources */,
+				4AD1A1582A7BB90400CB8DB0 /* CollectionViewCell.swift in Sources */,
+				4AD1A15A2A7BBA5A00CB8DB0 /* CollectionReusableView.swift in Sources */,
 				4AD1A12A2A7BB18F00CB8DB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
